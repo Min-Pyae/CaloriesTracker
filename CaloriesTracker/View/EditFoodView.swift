@@ -1,5 +1,5 @@
 //
-//  AddFoodView.swift
+//  EditFoodView.swift
 //  CaloriesTracker
 //
 //  Created by Chris Min on 12/04/2024.
@@ -7,10 +7,13 @@
 
 import SwiftUI
 
-struct AddFoodView: View {
+struct EditFoodView: View {
     
     @Environment(\.managedObjectContext) var managedObjectContext
     @Environment(\.dismiss) var dismiss
+    
+    // REFERING TO EACH FOOD
+    var food: FetchedResults<Food>.Element
     
     @StateObject private var dataController = DataController()
     
@@ -24,7 +27,11 @@ struct AddFoodView: View {
             Section {
                 
                 // FOOD NAME TEXT FIELD
-                TextField("Food name", text: $name)
+                TextField("\(food.name!)", text: $name)
+                    .onAppear {
+                        name = food.name!
+                        calories = food.calories
+                    }
                 
                 
                 // CALORIES SLIDER
@@ -44,7 +51,7 @@ struct AddFoodView: View {
                     
                     Button("Save") {
                         
-                        dataController.addFoodData(name: name, calories: calories, context: managedObjectContext)
+                        dataController.updateFoodData(food: food, name: name, calories: calories, context: managedObjectContext)
                         
                         dismiss()
                         
@@ -61,6 +68,4 @@ struct AddFoodView: View {
     }
 }
 
-#Preview {
-    AddFoodView()
-}
+

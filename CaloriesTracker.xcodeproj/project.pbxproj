@@ -15,6 +15,7 @@
 		F15DA4CB2BC954B100BB4F70 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DA4CA2BC954B100BB4F70 /* DataController.swift */; };
 		F15DA4D02BC959C600BB4F70 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DA4CF2BC959C600BB4F70 /* AddFoodView.swift */; };
 		F15DA4D32BC95E9F00BB4F70 /* TimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DA4D22BC95E9F00BB4F70 /* TimeFormat.swift */; };
+		F15DA4D52BC966A900BB4F70 /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DA4D42BC966A900BB4F70 /* EditFoodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F15DA4CA2BC954B100BB4F70 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		F15DA4CF2BC959C600BB4F70 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 		F15DA4D22BC95E9F00BB4F70 /* TimeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormat.swift; sourceTree = "<group>"; };
+		F15DA4D42BC966A900BB4F70 /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				F15DA4BA2BC953D800BB4F70 /* ContentView.swift */,
 				F15DA4CF2BC959C600BB4F70 /* AddFoodView.swift */,
+				F15DA4D42BC966A900BB4F70 /* EditFoodView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				F15DA4CB2BC954B100BB4F70 /* DataController.swift in Sources */,
 				F15DA4D02BC959C600BB4F70 /* AddFoodView.swift in Sources */,
 				F15DA4B92BC953D800BB4F70 /* CaloriesTrackerApp.swift in Sources */,
+				F15DA4D52BC966A900BB4F70 /* EditFoodView.swift in Sources */,
 				F15DA4C92BC9542500BB4F70 /* FoodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

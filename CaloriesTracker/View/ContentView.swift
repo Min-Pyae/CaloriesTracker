@@ -29,7 +29,7 @@ struct ContentView: View {
                 
                 List {
                     ForEach(food) { food in
-                        NavigationLink(value: "H") {
+                        NavigationLink(value: food) {
                             HStack {
                                 
                                 VStack(alignment: .leading, spacing: 6) {
@@ -61,6 +61,9 @@ struct ContentView: View {
                 
             }
             .navigationTitle("Calories Tracker")
+            .navigationDestination(for: Food.self) { food in
+                EditFoodView(food: food)
+            }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
