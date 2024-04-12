@@ -50,5 +50,5 @@ This repository contains a native iOS app built with Swift, SwiftUI and CoreData
 ## Contributing
 Contributions to the Calories Tracker App are welcome! If you have any ideas for new features, bug fixes, or improvements, please open an issue or submit a pull request with your changes.
 
-## License
+## License
 The Calories Tracker App is released under the MIT License, which means you're free to modify and distribute the app's source code for personal or commercial use. However, please attribute the original work to the project repository.
