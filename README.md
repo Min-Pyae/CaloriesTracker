@@ -29,11 +29,12 @@ This repository contains a native iOS app built with Swift, SwiftUI and CoreData
 
 ### Light Mode
 
-![calories-tracker-light-mode](https://github.com/Min-Pyae/CaloriesTracker/assets/86566662/3354fe13-0a88-428e-ada1-b9c44d8596a3)
+<img src="[https://github.com/Min-Pyae/CaloriesTracker/assets/86566662/1c42ecfb-2e40-4301-bc60-7c456765434f](https://github.com/Min-Pyae/CaloriesTracker/assets/86566662/3354fe13-0a88-428e-ada1-b9c44d8596a3)" width="300">
+
 
 ### Dark Mode
 
-![calories-tracker-dark-mode](https://github.com/Min-Pyae/CaloriesTracker/assets/86566662/1c42ecfb-2e40-4301-bc60-7c456765434f)
+<img src="https://github.com/Min-Pyae/CaloriesTracker/assets/86566662/1c42ecfb-2e40-4301-bc60-7c456765434f" width="300">
 
 ## Technologies Used
 
