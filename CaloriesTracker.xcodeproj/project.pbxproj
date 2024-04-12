@@ -13,6 +13,8 @@
 		F15DA4C02BC953D900BB4F70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15DA4BF2BC953D900BB4F70 /* Preview Assets.xcassets */; };
 		F15DA4C92BC9542500BB4F70 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F15DA4C72BC9542500BB4F70 /* FoodModel.xcdatamodeld */; };
 		F15DA4CB2BC954B100BB4F70 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DA4CA2BC954B100BB4F70 /* DataController.swift */; };
+		F15DA4D02BC959C600BB4F70 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DA4CF2BC959C600BB4F70 /* AddFoodView.swift */; };
+		F15DA4D32BC95E9F00BB4F70 /* TimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15DA4D22BC95E9F00BB4F70 /* TimeFormat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		F15DA4BF2BC953D900BB4F70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F15DA4C82BC9542500BB4F70 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		F15DA4CA2BC954B100BB4F70 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		F15DA4CF2BC959C600BB4F70 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		F15DA4D22BC95E9F00BB4F70 /* TimeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				F15DA4B82BC953D800BB4F70 /* CaloriesTrackerApp.swift */,
-				F15DA4BA2BC953D800BB4F70 /* ContentView.swift */,
+				F15DA4CC2BC9598300BB4F70 /* View */,
 				F15DA4C62BC9540C00BB4F70 /* DataModel */,
+				F15DA4D12BC95E8B00BB4F70 /* Util */,
 				F15DA4BC2BC953D900BB4F70 /* Assets.xcassets */,
 				F15DA4BE2BC953D900BB4F70 /* Preview Content */,
 			);
@@ -79,6 +84,23 @@
 				F15DA4CA2BC954B100BB4F70 /* DataController.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		F15DA4CC2BC9598300BB4F70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F15DA4BA2BC953D800BB4F70 /* ContentView.swift */,
+				F15DA4CF2BC959C600BB4F70 /* AddFoodView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F15DA4D12BC95E8B00BB4F70 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F15DA4D22BC95E9F00BB4F70 /* TimeFormat.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15DA4D32BC95E9F00BB4F70 /* TimeFormat.swift in Sources */,
 				F15DA4BB2BC953D800BB4F70 /* ContentView.swift in Sources */,
 				F15DA4CB2BC954B100BB4F70 /* DataController.swift in Sources */,
+				F15DA4D02BC959C600BB4F70 /* AddFoodView.swift in Sources */,
 				F15DA4B92BC953D800BB4F70 /* CaloriesTrackerApp.swift in Sources */,
 				F15DA4C92BC9542500BB4F70 /* FoodModel.xcdatamodeld in Sources */,
 			);
